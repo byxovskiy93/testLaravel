@@ -1,0 +1,39 @@
+header{
+    margin: 0 0 60px 0;
+    position: relative;
+}
+
+.blog-posts{
+    margin-top: 0;
+}
+
+.post-info{
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+.commentBlockCount,
+.likeBlockCount,
+.viewBlockCount{
+    display: inline-block;
+}
+
+a#commentBlock:focus,
+a#commentBlock:hover,
+a#commentBlock:link{
+    cursor: default;
+    pointer-events: none;
+    text-decoration:none;
+}
+
+a#viewBlock:focus,
+a#viewBlock:hover,
+a#viewBlock:link{
+    cursor: default;
+    pointer-events: none;
+    text-decoration:none;
+}
+
+
