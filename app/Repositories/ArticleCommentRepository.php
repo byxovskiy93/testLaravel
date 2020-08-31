@@ -2,7 +2,6 @@
 namespace App\Repositories;
 
 use App\ArticleComment;
-use phpDocumentor\Reflection\DocBlock\Tags\Throws;
 
 class ArticleCommentRepository extends Repository
 {
