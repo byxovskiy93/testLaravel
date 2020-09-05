@@ -27,8 +27,6 @@ Route::resource('/articles','Site\ArticleController',[
 
 ]);
 
-
-
 Route::group(['prefix' => 'api/v1/article', 'namespace' => 'Api\V1\Article', 'as' => 'api_'], function () {
 
     Route::resource('view', 'ViewController',[
@@ -53,3 +51,7 @@ Route::group(['prefix' => 'api/v1/article', 'namespace' => 'Api\V1\Article', 'as
     ]);
 
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
